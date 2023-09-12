@@ -1,0 +1,16 @@
+CREATE TABLE users (
+    ID int NOT NULL,
+    user_name varchar(100) NOT NULL,
+    password int NOT NULL,
+    PRIMARY KEY (ID)
+);
+
+INSERT INTO `users`(`ID`, `user_name`, `password`) VALUES (index,"user_name",password)
+
+CREATE TABLE garagestatus (
+    ID int NOT NULL,
+    Stat varchar(10) NOT NULL,
+    PRIMARY KEY (ID)
+);
+
+INSERT INTO `garagestatus`(`ID`, `Stat`) VALUES (0,"0")

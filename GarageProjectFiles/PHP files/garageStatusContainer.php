@@ -1,0 +1,1 @@
+<?php $getGarageStatus='1'; echo $getGarageStatus; ?>
